@@ -1,0 +1,13 @@
+{
+    "name": "smkTest",
+    "version": "0.0.1",
+    "description": "SMK + Openshift = Yay!",
+    "author": "Danagerous",
+    "dependencies": {
+        "@bcgov/smk": "1.1.12",
+        "http-server": "^0.12.3"
+    },
+    "scripts": {
+        "view": "http-server -o -c-1"
+    }
+}
